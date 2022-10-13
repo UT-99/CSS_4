@@ -1,0 +1,143 @@
+#first-heading{
+    text-decoration: underline;
+    background: linear-gradient(to right , red , black 10% , rgb(30, 196, 30) 40%, yellow);
+    text-align: center;
+}
+
+#centerd-div{
+    border: 2px solid red;
+    margin: 2% 20%;
+    border-radius: 15px;
+    background-color: rgb(37, 212, 228);
+    
+}
+.list-item{
+    padding-left: 20px;
+}
+#div-3{
+    border: 2px solid black;
+    background-color: aquamarine;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    column-gap: 3%;
+    row-gap: 1%;
+    
+}
+#div-third-first{
+    background-color: rgb(47, 160, 71);
+    text-align: center;
+    border-radius: 12px;
+    border: 2px solid green;
+}
+#div-third-second{
+    background-color: rgb(47, 160, 71);
+    text-align: center;
+    border-radius: 12px;
+    border: 2px solid green;
+
+}
+#div-third-third{
+    background-color: rgb(47, 160, 71);
+    text-align: center;
+    border-radius: 12px;
+    border: 2px solid green;
+
+}
+#div-third-fourth{
+    background-color: rgb(47, 160, 71);
+    text-align: center;
+    border-radius: 12px;
+    border: 2px solid green;
+    grid-column: 2 / 3;
+}
+
+#second-heading{
+    text-align: center;
+    background:radial-gradient(circle , yellow  , orange  , red );
+    text-decoration: underline;
+    padding-bottom: 18px;
+}
+
+#div-four{
+    display: flex;
+    background: radial-gradient(circle , blue , skyblue , green);
+    border: 4px solid green;
+    border-radius: 15px;
+    padding: 5%;
+    justify-content: space-around;
+}
+
+.flex-items{
+    background-color: yellow;
+    border: 3px solid red;
+    text-decoration: underline;
+    text-align: center;
+    border-radius: 15px;
+    width: 17%;
+}
+
+#div-five{
+    display: grid;
+    background-color: whitesmoke;
+    border: 4px solid grey;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    /* row-gap: 3px;
+    column-gap: 4px; */
+    
+    
+}
+
+#div-five-one{
+    background-color: brown;
+    color: white;
+    text-align: center;
+    grid-column: 1 / 5;
+    margin: 5px;
+    
+}
+#div-five-two{
+    background-color: rgb(20, 73, 55);
+    color: white;
+    grid-column: 1 / 2;
+    margin: 5px;
+}
+#div-five-third{
+    grid-column: 2 / 3 ;
+    background-color: rgb(85, 144, 222);
+    color: white;
+    margin: 5px;
+}
+#div-five-fourth{
+    color: white;
+    background-color: rgb(47, 73, 185);
+    grid-column: 3 / 4;
+    margin: 5px;
+}
+#div-five-five{
+    color: white;
+    background-color: rgb(42, 40, 40);
+    grid-column: 4 / 5;
+    grid-row: 2 / 4;
+    margin: 5px;
+    text-align: start;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+#div-five-six{
+    background-color: orange;
+    color: white;
+    grid-column: 1 / 4;
+    margin: 5px;
+}
+
+#div-five-seven{
+    background-color: rgb(54, 109, 128);
+    color: black;
+    text-align: center;
+    grid-column: 1 / -1  ;
+
+}
