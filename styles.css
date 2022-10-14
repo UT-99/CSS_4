@@ -8,7 +8,7 @@
     border: 5px solid red;
     margin: 2% 20%;
     border-radius: 15px;
-    background-color: rgb(117, 154, 157, 0.7);
+    background-color: rgba(130, 214, 221, 0.7);
     
 }
 .list-item{
@@ -16,7 +16,7 @@
 }
 #div-3{
     border: 2px solid black;
-    background-color: rgb(98, 236, 222);
+    background-color: rgb(80, 235, 199);
     border-radius: 15px;
     display: grid;
     grid-template-columns: auto auto auto;
@@ -27,34 +27,38 @@
     
 }
 #div-third-first{
-    background-color: rgb(94, 237, 170);
+    background-color: aqua;
     text-align: center;
     border-radius: 12px;
-    border: 3.4px solid green;
+    border: 3px solid green;
     margin-left: 15px;
+    font-weight: bold;
     
 }
 #div-third-second{
-    background-color: rgb(94, 237, 170);
+    background-color: aqua;
     text-align: center;
     border-radius: 12px;
-    border: 3.4px solid green;
+    border: 3px solid green;
+    font-weight: bold;
 
 }
 #div-third-third{
-    background-color: rgb(94, 237, 170);
+    background-color: aqua;
     text-align: center;
     border-radius: 12px;
-    border: 3.4px solid green;
+    border: 3px solid green;
     margin-right: 15px;
+    font-weight: bold;
 
 }
 #div-third-fourth{
-    background-color: rgb(94, 237, 170);
+    background-color: aqua;
     text-align: center;
     border-radius: 12px;
-    border: 3.4px solid green;
+    border: 3px solid green;
     grid-column: 2 / 3;
+    font-weight: bold;
 }
 
 #second-heading{
@@ -66,7 +70,7 @@
 
 #div-four{
     display: flex;
-    background: radial-gradient(ellipse , blue , skyblue , green);
+    background: radial-gradient(circle , blue , skyblue , green);
     border: 4px solid green;
     padding: 5%;
     justify-content: space-around;
@@ -139,7 +143,7 @@
 }
 
 #div-five-seven{
-    background-color: rgb(40, 137, 169);
+    background-color: rgb(42, 167, 209);
     color: black;
     text-align: center;
     grid-column: 1 / -1  ;
